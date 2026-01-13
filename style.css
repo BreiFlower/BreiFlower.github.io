@@ -168,7 +168,16 @@ audio {
   border: 1px solid #94218d;
   border-radius: 5px;
   padding: 20px;
-  background-color: #b334b0;
+  background-color:rgb(124, 25, 131);
+}
+
+#grad {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+#colortextalexg {
+    color:rgb(17, 0, 145)
+
 }
 
 
