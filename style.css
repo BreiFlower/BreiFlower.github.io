@@ -85,6 +85,10 @@ main {
     padding: 15px;
 }
 
+
+
+
+
 /* interests section styles */
 #interests {
     border: 4px silver ridge;
@@ -121,3 +125,59 @@ h2, h3 {
   text-decoration: none;
   color: #454545;
 }
+
+/* OTHER UH THING OTHER RECTANGLE */
+
+#all-contents2 {
+    max-width: 800px;
+    margin: auto;
+
+}
+
+
+
+#nav-ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-li2 {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+/* main container area beneath menu */
+
+.sidebar2 {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+
+.content2 {
+    flex: 1;
+    padding: 15px;
+}
+
+
+audio { 
+  width: 40%;
+  border: 1px solid #94218d;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #b334b0;
+}
+
+
+
+/* interests section styles */
+
+
+
+.content2 h1 {
+  color: rgb(204, 48, 110);
+}
+
