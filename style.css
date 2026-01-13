@@ -66,7 +66,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(91, 3, 99);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCKjrMdFA6C9esoByMxyCxAlTNRGSqF1puzIOOPTWf2fkzHwc:https://img.freepik.com/free-vector/night-time-sky-background-with-glittering-stars_1048-19664.jpg%3Fsemt%3Dais_hybrid%26w%3D740%26q%3D80&s);
     display: flex;
     margin-top: 20px;
     border: 8px rgb(14, 37, 114) ridge;
