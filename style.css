@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: 1500px; 
     background-position: center;
-    color: rgb(178, 177, 255); 
+    color: rgb(142, 141, 232); `
     padding: 10px; 
     font-family: cursive, 'Times New Roman', Times, serif;
 
@@ -42,7 +42,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(192, 204, 255);
+    color: rgb(114, 135, 228);
     flex: 1;
     margin: 0;
 }
@@ -61,7 +61,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #9b42a1;
+    color: #73097b;
 }
 
 /* main container area beneath menu */
@@ -69,6 +69,9 @@ main {
     background: rgb(91, 3, 99);
     display: flex;
     margin-top: 20px;
+    border: 8px rgb(14, 37, 114) ridge;
+    padding: 8px;
+    margin-top: 15px;
 }
 
 .sidebar {
@@ -91,9 +94,13 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
+    border: 5px rgb(46, 14, 114) ridge;
     padding: 8px;
-    margin-top: 20px;
+    margin-top: 15px;
+    color: rgb(22, 21, 119);
+    font-family: cursive, 'Times New Roman', Times, serif;
+
+}
 }
 
 h2, h3 {
@@ -102,7 +109,7 @@ h2, h3 {
 
 
 .content h1 {
-  color: rgb(204, 48, 110);
+  color: rgb(71, 6, 32);
 }
 
 #portfolio {
@@ -111,7 +118,7 @@ h2, h3 {
 }
 
 #portfolio li {
-  background: #fff;
+  background: #1a036e;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -171,7 +178,7 @@ audio {
   background-color:rgb(124, 25, 131);
 }
 
-#grad {
+.grad {
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
