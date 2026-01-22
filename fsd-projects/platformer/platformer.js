@@ -27,11 +27,36 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+    toggleGrid();
+    
 
 
-    // TODO 2 - Create Platforms
+    // TODO 2 - Create Platforms ALSO this is First reward
+    createPlatform(300, 630, 30, 20, "purple");
+    createPlatform(500, 600, 30, 20, "purple");
+ 
+    createPlatform(700, 490, 30, 20, "purple");
+    createPlatform(500, 400, 30, 20, "purple");
+    createPlatform(300, 450, 30, 20, "purple");
+    createPlatform(200, 300, 150, 10, "purple");
+    createPlatform(400, 150, 200, 10, "purple");
+    createPlatform(1000, 450, 100, 10, "purple");
+    createPlatform(0, 580, 200, 10, "purple");
+    createPlatform(0, 0, 200, 590, "black");
+    createPlatform(700, 0, 200, 250, "black");
+    createPlatform(700, 600, 200, 200, "black");
+    createPlatform(800, 500, 100, 100, "black");
 
+    //Second Reward
+
+      createPlatform(1150, 360, 30, 20, "purple");
+      createPlatform(950, 260, 30, 20, "purple");
+      createPlatform(1150, 190, 30, 20, "purple");
+      createPlatform(1250, 190, 200, 10, "purple");
+      createCollectable("diamond", 200, 190, 0.5, 0.7);
+      createCollectable("grace", 1300, 100, 0.5, 0.7);
+
+  
 
 
 
@@ -41,7 +66,9 @@ $(function () {
 
     
     // TODO 4 - Create Cannons
-
+    createCannon("top", 450, 1000);
+    createCannon("top", 1100, 1000);
+    createCannon("right", 800, 900);
 
     
     

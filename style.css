@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: 1500px; 
     background-position: center;
-    color: rgb(142, 141, 232); `
+    color: rgb(142, 141, 232); 
     padding: 10px; 
     font-family: cursive, 'Times New Roman', Times, serif;
 
@@ -61,7 +61,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #73097b;
+    color: #cd8dd2;
 }
 
 /* main container area beneath menu */
@@ -92,6 +92,7 @@ main {
 
 
 
+
 /* interests section styles */
 #interests {
     border: 5px rgb(46, 14, 114) ridge;
@@ -101,7 +102,7 @@ main {
     font-family: cursive, 'Times New Roman', Times, serif;
 
 }
-}
+
 
 h2, h3 {
     margin: 0px;
@@ -197,3 +198,7 @@ audio {
   color: rgb(204, 48, 110);
 }
 
+.colortext2 {
+    color: rgb(114, 135, 228)
+
+}
