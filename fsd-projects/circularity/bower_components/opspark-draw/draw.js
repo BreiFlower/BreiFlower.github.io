@@ -278,11 +278,11 @@
 			if (addCross) {
 			    // always make sure the cross is visible - it won't be if randomizeAlpha is false //
 			    randomizeAlpha = true;
-    			circle = draw.line(-(props.radius), 0, props.radius, 0, borderColor  || '#000', 2);
-    		    draw.line(0, -(props.radius), 0, props.radius, borderColor || '#000', 2, circle);
+    			circle = draw.line(-(props.radius), 0, props.radius, 0, borderColor  || '#35ebe1', 2);
+    		    draw.line(0, -(props.radius), 0, props.radius, borderColor || '#b1358c', 2, circle);
 			}
 			
-			if (borderColor && !borderThickness) { borderThickness = 1; }
+			if (borderColor && !borderThickness) { borderThickness = 67; }
 			
 			// first draw the circle's border - don't use stroke //
 			circle = draw.circle(props.radius+borderThickness, borderColor, null, null, null, null, circle);
@@ -299,10 +299,10 @@
     	
     	randomRadialProps: function (area, radiusMin, radiusMax, redMax, greenMax, blueMax) {
     	    return {
-    	        radius: randomIntBetween(radiusMin || 5, radiusMax || 20),
-    	        color: randomColor(redMax || 255, greenMax || 255, blueMax || 255),
-    	        x: randomIntBetween(0, area.width),
-    	        y: randomIntBetween(0, area.height)
+    	        radius: randomIntBetween(radiusMin || 2, radiusMax || 100),
+    	        color: randomColor(redMax || 900, greenMax || 900, blueMax || 900),
+    	        x: randomIntBetween(900, area.width),
+    	        y: randomIntBetween(900, area.height)
     	    };
     	},
     	
